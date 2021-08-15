@@ -8,7 +8,7 @@
   
   
   <title>
-    blog_hexo |
+    Technology |
     
     边小鱼的个人博客
   </title>
@@ -31,7 +31,7 @@
 <body>
   <main class="content">
     <section class="outer">
-  <article id="post-blog-hexo" class="article article-type-post" itemscope
+  <article id="page-" class="article article-type-page" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -40,7 +40,7 @@
       
 
 <h1 class="article-title" itemprop="name">
-  blog_hexo
+  Technology
 </h1>
 
 
@@ -49,17 +49,6 @@
     
 
     
-    <div class="article-meta">
-      <a href="/2021/08/15/blog-hexo/" class="article-date">
-  <time datetime="2021-08-15T12:45:28.000Z" itemprop="datePublished">2021-08-15</time>
-</a>
-      
-    </div>
-    
-
-    
-    
-<div class="tocbot"></div>
 
     
 
@@ -67,55 +56,11 @@
       
       
       
-      <h2 id="http-bianchao321-github-io"><a href="#http-bianchao321-github-io" class="headerlink" title="http://bianchao321.github.io"></a><a target="_blank" rel="noopener" href="http://bianchao321.github.io/">http://bianchao321.github.io</a></h2><p>第一部分<br>    1,安装hexo<br>        npm install -g hexo-cli<br>    2,初始项目(找一个空的文件夹)<br>        hexo init blog<br>        cd blog //进入这个myblog文件夹<br>        npm install</p>
-<pre><code>    node_modules: 依赖包
-    public：存放生成的页面
-    scaffolds：生成文章的一些模板
-    source：用来存放你的文章
-    themes：主题        
-3,启动blog
-    hexo g
-    hexo server
-
-4,GitHub创建个人仓库
-    创建一个仓库，名称为yourname.github.io
-5,将hexo部署到GitHub
-    1) 打开站点配置文件 _config.yml
-    2) 在文件末尾修改
-        deploy:
-            type: git
-            repo: https://github.com/YourgithubName/YourgithubName.github.io.git
-            branch: master
-    3) npm install hexo-deployer-git --save
-    4) hexo clean      清除了你之前生成的东西
-    hexo generate   生成静态文章
-    hexo deploy     部署文章
-    最后一个命令执行完后会弹出一个弹窗，输入github的账号密码即可
-    5) 进入 http://yourname.github.io 检测blog是否可以访问
-</code></pre>
-<p>第二部分<br>    hexo的基本配置，更换主题，实现多终端工作，以及在coding page部署实现国内外分流<br>    1. hexo基本配置<br>        _config.yml文件属性介绍：</p>
-<pre><code>    title：         网站标题
-    subtitle:        网站副标题
-    description:    网站描述
-    author:            您的名字
-    language:        网站使用的语言
-    timezone:        网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 
-
-
-
-
-
-
-
-hexo clean
-hexo g
-hexo d
-</code></pre>
-
+      
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/15/blog-hexo/" data-id="cksdaip36000168nc08ac4kzz" class="article-share-link">
+      <a data-url="http://example.com/Technology/index.html" data-id="cksdaip33000068nceltc2tel" class="article-share-link">
         Share
       </a>
       
@@ -125,21 +70,8 @@ hexo d
 
   
   
-<nav class="article-nav">
-  
-  
-  <a href="/2021/08/15/hello-world/" class="article-nav-link">
-    <strong class="article-nav-caption">Older</strong>
-    <div class="article-nav-title">Hello World</div>
-  </a>
-  
-</nav>
-
   
 
-  
-  
-  
   
 
 </article>
@@ -150,8 +82,6 @@ hexo d
       <ul class="list-inline">
   
   <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
-  
-  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
   
 </ul>
     </div>
@@ -246,23 +176,6 @@ hexo d
 
 
 
-
-
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
-  tocbot.init({
-    tocSelector: '.tocbot',
-    contentSelector: '.article-entry',
-    headingSelector: 'h1, h2, h3, h4, h5, h6',
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    positionFixedSelector: '.tocbot',
-    positionFixedClass: 'is-position-fixed',
-    fixedSidebarOffset: 'auto',
-  });
-</script>
 
 
 
