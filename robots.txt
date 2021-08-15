@@ -5,6 +5,7 @@ Allow: /archives/
 Allow: /gallery/
 Allow: /about/
 Allow: /links/
+Allow: /technology/
 Disallow: /images/
 Disallow: /css/
 Disallow: /js/
