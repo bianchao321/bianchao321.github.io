@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-15T14:53:40.633Z</updated>
+  <updated>2021-08-20T15:13:12.664Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>photo</title>
+    <link href="http://example.com/2021/08/20/photo/"/>
+    <id>http://example.com/2021/08/20/photo/</id>
+    <published>2021-08-20T15:11:32.000Z</published>
+    <updated>2021-08-20T15:13:12.664Z</updated>
+    
+    
+    
+    
+    
+    <category term="photo" scheme="http://example.com/tags/photo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/08/20/pinglun/"/>
+    <id>http://example.com/2021/08/20/pinglun/</id>
+    <published>2021-08-20T14:33:18.882Z</published>
+    <updated>2021-08-20T14:33:18.882Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>blog_hexo</title>
     <link href="http://example.com/2021/08/15/blog-hexo/"/>
     <id>http://example.com/2021/08/15/blog-hexo/</id>
     <published>2021-08-15T12:45:28.000Z</published>
-    <updated>2021-08-15T14:53:40.633Z</updated>
+    <updated>2021-08-20T15:30:50.938Z</updated>
     
     
       
@@ -42,7 +70,7 @@
     <link href="http://example.com/2021/08/15/hello-world/"/>
     <id>http://example.com/2021/08/15/hello-world/</id>
     <published>2021-08-15T12:14:35.839Z</published>
-    <updated>2021-08-15T12:14:35.839Z</updated>
+    <updated>2021-08-20T14:10:06.660Z</updated>
     
     
       
